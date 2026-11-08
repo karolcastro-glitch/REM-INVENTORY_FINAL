@@ -1,0 +1,33 @@
+# Environment credentials
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Python
+**/venv/
+**/.venv/
+**/__pycache__/
+**/*.py[cod]
+
+# Frontend dependencies and builds
+**/node_modules/
+**/dist/
+**/dist-ssr/
+**/.vite/
+
+# Generated optimization exports
+backend/resultados/*.csv
+
+# Local editor and operating system files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and local files
+*.log
+*.local
